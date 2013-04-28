@@ -1,9 +1,4 @@
-<?php
 
-ini_set('display_errors', 'On');
-include 'content.php';
-
-?>
 
 <!doctype html>
 <html lang="en">
@@ -42,7 +37,7 @@ include 'content.php';
 			<div id="out">
 				<a id= "exit" href="exitMessage.php"> EXIT <img id ="ex" src="images/ex.PNG"></a> 
 			</div>
-			
+		
 			<div id="line"><img src="images/blueLine.png"></div>
 			<div id="wrapper">
 				<div id= "content">
@@ -51,15 +46,15 @@ include 'content.php';
 					<h2 class= "question" id="final1"<h2>I would like to be:</h2>
 					
 					<div id ="choices">	
-						<center><a id="Top" class="ThreeLongAnswer" href="finalDisposition2.php">Cremated</a></center>
-						<center><a id="Middle" class="ThreeLongAnswer" href="whatIf.php">Laid to rest at a cemetery</a></center>						
-						<center><a id="bottom" class="ThreeLongAnswer" href="livingWill_6.php">Donated to medical science</a></center>
-						<center><a id="bottom" class="ThreeLongAnswer" href="livingWill_6.php">Not sure yet? that’s ok. You can come back later.</a></center>
+						<center><a id="Top" class="ThreeLongAnswer" href="finalDisposition3.php">Cremated</a></center>
+						<center><a id="Middle" class="ThreeLongAnswer" href="finalDisposition3.php">Laid to rest at a cemetery</a></center>						
+						<center><a id="bottom" class="ThreeLongAnswer" href="finalDisposition3.php">Donated to medical science</a></center>
+						<center><a id="bottom" class="ThreeLongAnswer" href="finalDisposition3.php">Not sure yet? It is ok. You can come back later.</a></center>
 					</div><!-- closing choices -->
 				</div>
 			
 			<aside>
-				<img src="images/sideBar/dataFinalDispo_2.png">
+				<img id="final2" src="images/sideBar/dataFinalDispo_2.png">
 			</aside>
 		
 			</div><!closing wrapper-->

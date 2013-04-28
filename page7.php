@@ -1,9 +1,3 @@
-<?php
-
-ini_set('display_errors', 'On');
-include 'content.php';
-
-?>
 
 <!doctype html>
 <html lang="en">
@@ -64,9 +58,14 @@ include 'content.php';
 			<aside>
 			<form><textarea id="personalStories" type="text" name="story" placeholder="Share your own story here..."></textarea><br></form>
 			<img src="images/sideBar/data7.png">
+			<img id="social" src="images/sideBar/social.png">
+			
+			<!--
+
 			<span class='st_facebook_large' displayText='Facebook'></span>
 			<span class='st_twitter_large' displayText='Tweet'></span>
 			<span class='st_email_large' displayText='Email'></span>
+-->
 		
 			</aside>
 			</div>

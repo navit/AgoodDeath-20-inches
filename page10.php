@@ -1,9 +1,4 @@
-<?php
 
-ini_set('display_errors', 'On');
-include 'content.php';
-
-?>
 
 <!doctype html>
 <html lang="en">
@@ -44,7 +39,7 @@ include 'content.php';
 				<a id= "exit" href="exitMessage.php"> EXIT <img id ="ex" src="images/ex.PNG"></a> 
 			</div>
 			
-			<div id="line"><img src="images/blueLine.png"></div>
+			<div id="line"><img src="images/blueShortLine.png"></div>
 			<div id="wrapper">
 			<div id= "content">
 				<img class="icon" id="iconPage10"src="images/icons/icon10.png">

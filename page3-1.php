@@ -1,9 +1,4 @@
-<?php
 
-ini_set('display_errors', 'On');
-include 'content.php';
-
-?>
 
 <!doctype html>
 <html lang="en">
@@ -50,7 +45,7 @@ include 'content.php';
 			</div><!-- losing content -->
 			
 			<aside>
-			<img id="page3" src="images/sideBar/data3.png">
+			<img id="page3" src="images/sideBar/data3-1.png">
 			</aside>
 			</div>
 			<footer>

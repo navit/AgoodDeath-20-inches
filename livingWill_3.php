@@ -1,9 +1,3 @@
-<?php
-
-ini_set('display_errors', 'On');
-include 'content.php';
-
-?>
 
 <!doctype html>
 <html lang="en">
