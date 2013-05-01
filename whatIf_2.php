@@ -1,5 +1,4 @@
 
-
 <!doctype html>
 <html lang="en">
   <head> 
@@ -34,8 +33,11 @@
    </head>
 		
 		<body id="toolkit">
+			
 			<div id="out">
-				<a id= "exit" href="exitMessage.php"> EXIT <img id ="ex" src="images/ex.PNG"></a> 
+			<?php
+				include 'exitButton.php';
+			?>
 			</div>
 			
 			<div id="LivingWilllLine"><img src="images/blueLivingWillLine.png"></div>

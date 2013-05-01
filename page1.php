@@ -2,51 +2,17 @@
 <!doctype html>
 <html lang="en">
   <head> 
-        <title>Loader</title> 
-        <link type="stylesheet" rel="stylesheet" href="css/style.css" />
-        <link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script> 
-        <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-        <script type="text/javascript">
-			$(document).ready(function() {
-			    $("body").css("display", "none");
-			 
-			    $("body").fadeIn(1000);
-			 
-			    $("a.transition").click(function(event){
-			        event.preventDefault();
-			        linkLocation = this.href;
-			        $("body").fadeOut(400, redirectPage);      
-			    });
-			/*
-     var p=0;
-               $("#progressbar").progressbar({value:0});
-               var timer = setInterval(function(){
-	               //This animates the bar
-	               $("#progressbar .ui-progressbar-value").animate({width: p+"%"},500);
-	               //This does static sets of the value
-	               //$("#myProgressBar").progressbar("option","value",p);
-	               p = p +33.33;
-	               if(p>33.33){
-                $("#progressbar .ui-progressbar-value").animate({width: "100%"}, 500);
-                //$("#myProgressBar").progressbar("option","value",100);
-                clearInterval(timer);
-                	}
-                },500);         
-			});
-*/
-		</script>
-	        
+    <?php
+		include 'header.php';
+	?>	        
    </head>
 		
 		<body id="toolkit">
 					
 			<div id="out">
-			<a id= "exit" href="exitMessage.php"> EXIT <img id ="ex" src="images/ex.PNG"></a> 
+			<?php
+				include 'exitButton.php';
+			?>
 			</div>
 			
 			<div id="line"><img src="images/blueLine.png"></div>

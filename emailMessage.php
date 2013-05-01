@@ -1,23 +1,41 @@
+<!doctype html>
 <html lang="en">
-
+  <head> 
+        <title>Loader</title> 
+        <LINK href="css/style.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script> 
+        <script type="text/javascript">
+			$(document).ready(function() {
+			    $("body").css("display", "none");
+			 
+			    $("body").fadeIn(1000);
+			 
+			    $("a.transition").click(function(event){
+			        event.preventDefault();
+			        linkLocation = this.href;
+			        $("body").fadeOut(400, redirectPage);      
+			    });
+			});
+			
+		</script>
+	        
+   </head>
 		<body>	
-
-		
-		<div id="emailMessage">
-			<div id="message">
-				<h1> SO, YOU are not convinced yet!<br>before you go:</h1>
-				<img src= "images/exitButton/info.png">
-				<p> End life decisions can be a very hard and emotional issue to deal<br> with. Although it is better to start the process early and gain as<br> much knowledge as you can, we 							understand that one might fear<br> going through with it.</p> <p id="reminder"> We could remind you in</p> 
-				<select id="reminder">
-				  <option value="one week">one week</option>
-				  <option value="one month">one month</option>
-				  <option value="6 month">six months</option>
-				  <option value="one year">one year </option>
-				</select> 
-				  <p>to come back and continue the process.<br>Would you like that?</p>
-				<a class="linkAnswer exitLink" href="out">YES</a>
-				<a class="linkAnswer exitLink" href="#">No, I would like to go back</a>
-			</div>
-		</div><!closing exitmessage-->
+			<div id="emailMessage">
+				<div id="Emessage">
+				<form>
+					To: <input type="text" name="firstname"><br>
+					subject:<input type="text" placeholder="Health Care Proxy!" name="lastname">
+				</form>
+				<form>
+					<input id="mail" type="text" placeholder="Hey I have decided to make you my health care proxy.I trust you to make health care decisions as I would for myself if I lose the ability to makethem.<br>I choose you because you are reliable and will uphold my wishes when I am unable to.<br>To continue this partnership, I would like to have a meaningful conversation with you!<br>I started a dialogue about my end-of-life intentions through a good death <br>Will you be my proxy?">
+				</form>
+				<input id ="send" type="submit" value="Submit">
+				</div>
+			</div><!closing exitmessage-->
 	</body>
 </html>
+

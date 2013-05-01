@@ -1,5 +1,15 @@
-
-			<div id="exitMessage">
+<?php
+ini_set('display_errors', 'On');
+?>
+<!doctype html>
+<html lang="en">
+  <head> 
+     <?php
+		include 'header.php';
+	?>
+   </head>
+   <body>
+   		<div id="exitMessage">
 			<div id="message">
 				<h1> SO, YOU are not convinced yet!<br>before you go:</h1>
 				<img src= "images/exitButton/info.png">
@@ -15,4 +25,6 @@
 				<a class="linkAnswer exitLink" href="#">No, I would like to go back</a>
 			</div>
 		</div><!closing exitmessage-->
+   </body>
+</html>
 		

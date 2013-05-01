@@ -2,13 +2,9 @@
 <!doctype html>
 <html lang="en">
   <head> 
-        <title>Loader</title> 
-        <link type="stylesheet" rel="stylesheet" href="css/style.css" /> 
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script> 
-        
-        <script type="text/javascript"></script> 
+        <?php
+			include 'header.php';
+		?>
    </head>
 		
 		<body>
@@ -76,10 +72,10 @@
 			</div>
 			
 			<div id="contact">
-				<h4 id ="link"> agoodeath.com ©CopyRight 2013</h4>
+				<h4 id ="link"> agoodeath.com &copy;CopyRight 2013</h4>
 				<div id="social">
-					<img src="images/homepage/mail.png">
-					<img src="images/homepage/twitter.png">
+					<a href="mailto:navitush@gmail.com" target="_blank"><img src="images/homepage/mail.png"></a>
+					<a href="https://twitter.com/AGOODEATH" target="_blank"><img src="images/homepage/twitter.png"></a>
 					<img src="images/homepage/facebook.png">
 				</div>
 				<h4 id="credits"> Designed By Navit Keren</h4>

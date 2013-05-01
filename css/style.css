@@ -91,22 +91,22 @@ img#homepage{
 }
 
 img#logo{
-	margin: 40px 0 0 660px;
+	margin: 74px 0 0 662px;
 	z-index: -1;
 }
 div#homepageTop>h1{
 	font-size: 35px;
 	font-weight: 500;
-	margin: 15px 0 0px 609px;
+	margin: 22px 0 0px 660px;
 	color:white;
 	padding-bottom: 30px;
 }
 a#enter{
 	color: black;
-	margin-left:700px;
+	margin-left:752px;
 	font-family: 'Actor';
-	font-size: 13pt;
-	padding: 10px 20px 10px 20px;
+	font-size: 10pt;
+	padding: 8px 16px 8px 16px;
 	border: solid 2px black;
 	border-radius: 3px;	
 }
@@ -137,7 +137,7 @@ div#info h2{
 }
 div.all{
 	width:300px;
-	margin-top: 80px;
+	margin-top: 60px;
 	margin-left: 170px;
 }
 div#name{
@@ -163,12 +163,12 @@ img#legal{
 
 div#about{
 	height: 380px;
-	margin-top: 330px;
+	margin-top: 354px;
 	background: rgba(154,212,222,0.62);
 	box-shadow: 3px 3px 18px #888888;
 }
 div#about>img{
-	margin: 50px 0 0 748px;
+	margin: 90px 0 0 748px;
 }
 div#about>h3{
 	width: 600px;
@@ -228,18 +228,18 @@ div#contact h4{
 }
 
 h4#link{
-	margin-left: 400px;
+	margin-left: 464px;
 	margin-top: 35px;
 	padding-right: 60px;
 	float: left;
 }
 h4#credits{
-	margin-right:478px;
+	margin-right:527px;
 	margin-top: 36px;
 	float: right;
 }
 div#social{
-	margin: 30px 0 0 2px;
+	margin: 30px 0 0 40px;
 	float: left;
 	display: inline
 }
@@ -295,7 +295,12 @@ a#exit{
 	font-family:'Actor';
 	font-size: 13px;
 	color:#FF6666;
-	margin-left: 26px;
+	margin-left: 20px;
+}
+img#ex{
+float: right;
+margin-right: 7px;	
+margin-top: 0;
 }
 
 /*-----------------------------------------------------------------------------------*
@@ -602,9 +607,6 @@ img#livingWill{
 img#livingWill1{
 	margin-left: 11px;
 }
-img#livingWill3{
-	margin-right: -18px;
-}
 img#livingWill4{
 	margin-left: 10px;
 }
@@ -633,11 +635,33 @@ img#dataNo2{
 	padding: 10px;	
 	border: NONE;	
 }
+img#stories{
+	z-index: -2;
+	position: absolute;
+}
+/* --------------sharing buttons--------------- */
+#social{
+	margin-left: 8px;
+	margin-top: 481px;
+	z-index: 1;
+}
+.share-twitter{
+	margin-left: 121px;
+	margin-top: -28px;
+}
+.share-facebook{
+	margin-left: 91px;
+	margin-top: -20px;
+}
+.share-email{
+	margin-left: 60px;
+	margin-top: -18px;
+}
 #graveStories{
-	width:283px;
-	height: 158px;
-	left:1241px;
-	top:65px;
+	width:263px;
+	height: 140px;
+	left:1230px;
+	top:68px;
 	z-index: 2;
 	position: absolute;
 	background: none;
@@ -645,11 +669,19 @@ img#dataNo2{
 	padding: 10px; 
 	border: NONE;
 }
-#social:hover{
-	margin-left: 9px;
-	background-image: url(http://w.sharethis.com/images/facebook_32.png);
+img#livingWill3{
+	margin-left: -10px;
+	z-index: -2;
+	position: absolute;
 }
-
+img#social3{
+	margin-left:0;
+	margin-top: 258px;
+	z-index: 1;
+}
+#social3:hover{
+	margin-top: 20px;
+}
 
 /*-----------------------------------------------------------------------------------*
 /* = exit message
@@ -657,7 +689,7 @@ img#dataNo2{
 #exitMessage{
 	width: 100%;
 	height: 100%;
-	margin-top: -120px;
+	margin-top: -130px;
 	display: none;
 	background-color:rgba(103,103,103,0.77);
 	position: absolute;
@@ -723,6 +755,37 @@ select#reminder{
 	font-family: 'Actor';
 	display: inline;	
 }
+
+/*-----------------------------------------------------------------------------------*
+/* = email message
+/*-----------------------------------------------------------------------------------*/
+#emailMessage{
+	width: 100%;
+	height: 100%;
+	margin-top: -120px;
+	display: none;
+	background-color:red;
+	position: absolute;
+}
+
+#Emessage{
+	width:450px;
+	height: 400px;
+	margin-left: 420px;
+	margin-top: 70px;
+	padding: 45px;
+	background: white;
+	border: solid 1px #3399CC;
+	border-radius: 3px;
+	box-shadow: 3px 3px 25px #a5a3a3; 
+
+}
+input#mail{
+	width: 400px;
+	height: 300px;
+	background: red;
+}
+
 
 
 /*-----------------------------------------------------------------------------------*
@@ -810,6 +873,8 @@ a{
 li{
 	display: inline;
 }
+
+
 
 
 	

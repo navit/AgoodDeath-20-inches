@@ -2,42 +2,9 @@
 <!doctype html>
 <html lang="en">
   <head> 
-        <title>Loader</title> 
-        <link type="stylesheet" rel="stylesheet" href="css/style.css" />
-        <link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script> 
-        <script type='text/javascript' src="js/jquery.simplemodal.1.4.4.min.js"></script>
-        <script type="text/javascript">
-			$(document).ready(function() {
-			    $("body").css("display", "none");
-			 
-			    $("body").fadeIn(1000);
-			 
-			    $("a.transition").click(function(event){
-			        event.preventDefault();
-			        linkLocation = this.href;
-			        $("body").fadeOut(400, redirectPage);      
-			    });
-			    
-			    $('.hover').click(function(){
-			    	$('#hoverMessage').fadeIn();  
-			    });
-			    $('.hover').mouseleave(function(){
-				    $('#hoverMessage').fadeOut();
-			    });
-			    
-			    $('.email').click(function(){
-			    	$('#emailMessage').fadeIn(1000)
-			    	$('#emailMessage').modal()
-			   });
-		
-			   
-			});
-			
-		</script>
-	        
+     <?php
+		include 'header.php';
+	?>
    </head>
 		
 		<body id="toolkit">
@@ -53,7 +20,12 @@
 				<h2 class= "question">Now that you have chosen someone you can trust with your health care issues, it is important that you share your decision with this person. Would you like to 				send him a message?</h2>
 				
 				<div id ="choices">	
-					<center><a id="TemplateLeft" class="answer email" href="#">YES</a></center>
+					<center><a id="TemplateLeft" class="answer href=" href="mailto:email@echoecho.com?subject=Health Care Proxy!
+					&body=Hey I have decided to make you my health care proxy. I trust you to make health care decisions as I would for myself if I lose the ability to make them. 
+					I choose you because you are reliable and will uphold my wishes when I am unable to.
+					To continue this partnership, I would like to have a meaningful conversation with you!
+					I started a dialogue about my end-of-life intentions through agoodeath.
+					Will you be my proxy?">YES</a></center>
 					<center><a id="TemplateRight" class="answer hover" href="#">NO</a></center>
 					<div id= "hoverMessage"><img src= "images/hoverMessage.png"> <p>YOU NEED TO THINK <br>OF ANOTHER PERSON!</p> </div>
 				</div><!-- closing choices -->
@@ -63,11 +35,18 @@
 				<img id="page13" src="images/sideBar/data13.png">
 			</aside>
 			</div><!-- closing wrraper -->
-			
-			<?php 
-				include 'emailMessage.php';
-			?>
-			
+				
+			<script type="text/javascript">
+			$(document).ready(function() {			    
+			    $('.email').click(function(){
+			    	$('#emailMessage').fadeIn(1000)
+			    	$('#emailMessage').modal()
+			   });
+	   
+			});
+
+			</script>
+	        
 			<footer>
 			<?php
 				include 'footer.php';

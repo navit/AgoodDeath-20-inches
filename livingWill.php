@@ -1,38 +1,18 @@
 
 <!doctype html>
 <html lang="en">
-  <head> 
-         <title>living will</title> 
-        <link type="stylesheet" rel="stylesheet" href="css/style.css" />
-        <link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script> 
-        <script src="jquery.popupoverlay.js"></script>
-        <script type="text/javascript">
-			$(document).ready(function() {
-			    $("body").css("display", "none");
-			 
-			    $("body").fadeIn(1000);
-			 
-			    $("a.transition").click(function(event){
-			        event.preventDefault();
-			        linkLocation = this.href;
-			        $("body").fadeOut(400, redirectPage);      
-			    });
-			
-			    $('.answer').click(function(){
-			    	$('#exitMessage').fadeIn(1000)
-			    	$('#exitMessage').modal()
-			    });
-		
-			});
-		</script>   
+  	<head> 
+		<?php
+			include 'header.php';
+		?>
+		 
 	</head>
 		
 		<body id="toolkit">
 			<div id="out">
-				<a id= "exit" href="exitMessage.php"> EXIT <img id ="ex" src="images/ex.PNG"></a> 
+			<?php 
+				include 'exitButton.php';
+			?>
 			</div>
 						
 			<div id="LivingWilllLine"><img src="images/blueLivingWillLine.png"></div>
@@ -54,6 +34,16 @@
 			</aside>
 			
 			</div><!closing wrapper-->
+			
+			 <script type="text/javascript">
+				   $(document).ready(function() {			
+			    $('.answer').click(function(){
+			    	$('#exitMessage').fadeIn(1000)
+			    	$('#exitMessage').modal()
+			    });
+		
+			});
+			</script>  
 		
 			<?php 
 				include 'exitMessage.php';

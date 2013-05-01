@@ -1,3 +1,17 @@
 
-<link type="stylesheet" rel="stylesheet" href="css/style.css">
-<a id= "exit" href="exitMessage.php"> EXIT <img id ="ex" src="images/ex.PNG"></a>
+<html lang="en">
+  <head> 
+     <?php
+		include 'header.php';
+	?>
+   </head>
+   <body>
+   <a id= "exit" href="exitMessage.php"> EXIT <img id ="ex" src="images/homepage/exButton.png"></a>
+   </body>
+</html>
+		
+
+
+
+
+

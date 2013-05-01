@@ -2,34 +2,17 @@
 <!doctype html>
 <html lang="en">
   <head> 
-        <title>Loader</title> 
-        <link type="stylesheet" rel="stylesheet" href="css/style.css" />
-        <link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script> 
-        <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51748f4d2b87cc72"></script>
-        <script type="text/javascript">
-			$(document).ready(function() {
-			    $("body").css("display", "none");
-			 
-			    $("body").fadeIn(1000);
-			 
-			    $("a.transition").click(function(event){
-			        event.preventDefault();
-			        linkLocation = this.href;
-			        $("body").fadeOut(400, redirectPage);      
-			    });			    
-			   
-			});
-		</script>
-	        
-   </head>
+  	<?php
+		include 'header.php';
+	?>        
+  </head>
 		
 		<body id="toolkit">
+			
 			<div id="out">
-				<a id= "exit" href="exitMessage.php"> EXIT <img id ="ex" src="images/ex.PNG"></a> 
+			<?php
+				include 'exitButton.php';
+			?>
 			</div>
 			
 			<div id="LivingWilllLine"><img src="images/blueLivingWillLine.png"></div>
@@ -49,12 +32,7 @@
 			<aside>
 			<form><textarea id="graveStories" type="text" name="story" placeholder="Share your own story here..."></textarea></form>
 			<img id="livingWill3" src="images/sideBar/datalivingWill_3.png">
-		
-				<img id ="social" src ="images/socialButtons.png">
-				<div class="addthis_toolbox addthis_default_style">
-				<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-				<a class="addthis_button_tweet"></a>
-						
+			<img id="social3" src="images/sideBar/social.png">						
 				</div>
 			</aside>
 			</div>
