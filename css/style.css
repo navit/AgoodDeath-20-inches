@@ -62,12 +62,12 @@ html{
 /*-----------------------------------------------------------------------------------*/
 
 body{
-	width: 100%;	
+	width: 100%;
 }
 nav#mainnav{
-	width: 130px;	
 	float: right;
 	margin-top:20px;
+	margin-left: 1150px;
 	position: fixed;
 }
 nav#mainnav>ul>li{
@@ -76,7 +76,7 @@ nav#mainnav>ul>li{
 a.mainPage{
 	font-family: 'Actor';
 	font-size: 12px;
-	color: #FF6666;
+	color: black;
 
 }
 
@@ -91,7 +91,7 @@ img#homepage{
 }
 
 img#logo{
-	margin: 74px 0 0 662px;
+	margin: 74px 0 0 664px;
 	z-index: -1;
 }
 div#homepageTop>h1{
@@ -146,7 +146,7 @@ div#name{
 }
 div#voice{
 	float: left;
-	margin-left: 250px;
+	margin-left: 256px;
 }
 div#remember{
 	width:280px;
@@ -162,7 +162,7 @@ img#legal{
 /*-----------------------------------------------------------------------------------*/
 
 div#about{
-	height: 380px;
+	height: 354px;
 	margin-top: 354px;
 	background: rgba(154,212,222,0.62);
 	box-shadow: 3px 3px 18px #888888;
@@ -298,9 +298,9 @@ a#exit{
 	margin-left: 20px;
 }
 img#ex{
-float: right;
-margin-right: 7px;	
-margin-top: 0;
+	float: right;
+	margin-right: 7px;	
+	margin-top: 0;
 }
 
 /*-----------------------------------------------------------------------------------*
@@ -645,6 +645,7 @@ img#stories{
 	margin-top: 481px;
 	z-index: 1;
 }
+/*
 .share-twitter{
 	margin-left: 121px;
 	margin-top: -28px;
@@ -657,6 +658,7 @@ img#stories{
 	margin-left: 60px;
 	margin-top: -18px;
 }
+*/
 #graveStories{
 	width:263px;
 	height: 140px;
@@ -689,22 +691,20 @@ img#social3{
 #exitMessage{
 	width: 100%;
 	height: 100%;
-	margin-top: -130px;
-	display: none;
-	background-color:rgba(103,103,103,0.77);
+	background-color: rgba(1, 4, 9, 0.47);
 	position: absolute;
 }
 
 #message{
-	width:450px;
-	height: 400px;
-	margin-left: 420px;
-	margin-top: 70px;
-	padding: 45px;
 	background: white;
+	width:550px;
+	height: 420px; 
+	margin-left: 504px;
+	margin-top: 90px;
+	padding: 45px;
 	border: solid 1px #3399CC;
 	border-radius: 3px;
-	box-shadow: 3px 3px 25px #a5a3a3; 
+	box-shadow: 3px 3px 32px #c5c5c5; 
 }
 #message img{
 	margin-top:15px;
@@ -731,8 +731,9 @@ img#social3{
 
 a.exitLink{
 	font-family: 'Actor';
-	color:white;
-	background-color: #3399CC;
+	color:black;
+	/* background-color: #3399CC; */
+	border: solid 1px #3399CC;
 	width:177px; 
 	height: 55px;
 	border-radius: 3px;
@@ -760,19 +761,13 @@ select#reminder{
 /* = email message
 /*-----------------------------------------------------------------------------------*/
 #emailMessage{
-	width: 100%;
-	height: 100%;
 	margin-top: -120px;
-	display: none;
-	background-color:red;
-	position: absolute;
+	margin-left: 10px;
+	/* display: none; */
 }
 
 #Emessage{
-	width:450px;
-	height: 400px;
-	margin-left: 420px;
-	margin-top: 70px;
+margin-left: -200px;
 	padding: 45px;
 	background: white;
 	border: solid 1px #3399CC;
@@ -780,10 +775,40 @@ select#reminder{
 	box-shadow: 3px 3px 25px #a5a3a3; 
 
 }
-input#mail{
+#Emessage p{
+	font-family: 'Actor';
+	font-size: 11pt;
+}
+#mail{
 	width: 400px;
-	height: 300px;
-	background: red;
+	height: 400px;
+	font-family: 'Actor';
+	font-size: 10pt;
+	line-height: 14pt;
+	padding: 20px;
+	
+}
+input.inputEmail{
+	width:220px; 
+	height: 20px;
+	border: solid 1px #3399CC;
+	border-radius: 3px;
+	box-shadow: 3px 3px 25px #a5a3a3; 
+	font-size: 12px; 
+	font-family: 'Actor'; 
+	padding-left: 5px;
+}
+input#send{
+	font-family:'Actor', sans-serif;
+    font-size: 9.5pt;
+    background: black;
+    color: #3399CC;    
+    text-transform: uppercase; 
+	width:100px; 
+	border: solid 1px #3399CC;
+	border-radius: 3px;
+	box-shadow: 3px 3px 25px #a5a3a3; 
+	padding: 10px;
 }
 
 
@@ -798,7 +823,7 @@ div#slider{
 	position: absolute;
 	float: left;
 }
-.box{
+.square{
 	font-family: 'Actor';
 	font-size: 12px;
 	text-align: center;
@@ -875,6 +900,75 @@ li{
 }
 
 
+/*-----------------------------------------------------------------------------------*
+/* = work in progress
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
 
+#WorkInProgress{
+	width:450px;
+	height: 200px;
+	margin-left: 420px;
+	margin-top: 70px;
+	padding: 45px;
+	background: white;
+	border: solid 1px #3399CC;
+	border-radius: 3px;
+	box-shadow: 3px 3px 25px #a5a3a3; 
+}
+h1#progress{
+	margin-: 50px 36px 0 0;
+}
 
+/*-----------------------------------------------------------------------------------*
+/* = thanks page
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+#thanks{
+	width:550px;
+	height: 500px; 
+	margin-left: 480px;
+	margin-top: -70px;
+	padding: 45px;
+	/* background: white; */
+/* border: solid 1px #3399CC; */
+	/*
+border-radius: 3px;
+	box-shadow: 3px 3px 25px #a5a3a3; 
+*/
+
+}
+#thanks>img{
+	margin-left: 158px;
+}
+h1#thanksTitle{
+	font-family:'PT Sans Narrow','Open Sans Condensed',sans-serif;
+	font-size: 37px;
+	letter-spacing: 0.5px;
+	font-weight: 600;
+	color: black;
+	float:left;
+	margin: 30px 0 20px 20px;
+}
+#thanks h2{
+	width: 470px; 
+	font-family: 'Actor';
+	font-size: 13pt;
+	line-height: 15pt;
+	text-align: center;
+	margin-left: 28px;
+}
+div#socialThanks{
+	margin-top: 30px;
 	
+}
+#socialThanks h3{
+	font-family: 'Actor';
+	font-size: 11pt;
+	text-align: center;
+	color: #3399CC;
+	padding-bottom: 10px;
+}

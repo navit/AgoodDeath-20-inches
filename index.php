@@ -1,4 +1,4 @@
-<!-- TEST FROM QUINCY -->
+
 <!doctype html>
 <html lang="en">
   <head> 
@@ -8,24 +8,23 @@
    </head>
 		
 		<body>
-			<!--
-<nav id ="mainnav">
+				
+			<nav id ="mainnav">
 				<ul>
-					<li><a class="mainPage" href ="#about"> ABOUT</a></li>
-					<li><a class="mainPage" href ="#resources"> RESOURCES</a></li>
+					<li><a class="mainPage" href ="#about"> ABOUT / RESOURCES</a></li>
 				</ul>
 			</nav>
--->
+
 			
 			<div id ="homepageTop">	
-				<img id="homepage" src="images/homepage/COVER1.png">
+				<img id="homepage" src="images/homepage/COVER2.png">
 				<img id="logo" src="images/homepage/logo1.png">
 				<h1> <img src="images/homepage/create1.png"></h1>
 				<a id="enter" href="page0.php">ENTER</a>
 			</div>
 			
 			<div id= "info">
-				<!--  <img src="images/homepage/texture.png"  -->
+				 <!-- <img src="images/homepage/texture.png"  --> 
 				
 				<div id="name" class="all">
 					<img class="allIcons" src ="images/homepage/iconName.png">

@@ -34,7 +34,8 @@
 				<img id="stories" src="images/sideBar/data7.png">
 				
 				<div id="demo1" data-url="http://sharrre.com" data-text="Make your sharing widget with Sharrre (jQuery Plugin)" data-title="share"></div>
-					<!--<img id="social" src="images/sharing/social.png">
+					<!--
+<img id="social" src="images/sharing/social.png">
 					<div class="share-twitter">
 					<img src="images/sharing/twitter.png">
 					</div>
@@ -44,7 +45,8 @@
 					<div id"facebook-widget">
 					<div class="share-email">
 					<img src="images/sharing/email.png">
-					</div>-->
+-->
+				</div>
 			</aside>
 			</div>
 			
@@ -52,15 +54,17 @@
 			<script type="text/javascript">
 			$('#demo1').sharrre({
 					  share: {
-					    googlePlus: true,
+					    /* googlePlus: true, */
 					    facebook: true,
 					    twitter: true
 					  },
-					  buttons: {
+					  /*
+buttons: {
 					    googlePlus: {size: 'tall', annotation:'bubble'},
 					    facebook: {layout: 'box_count'},
 					    twitter: {count: 'vertical', via: '_JulienH'}
 					  },
+*/
 					  hover: function(api, options){
 					    $(api.element).find('.buttons').show();
 					  },

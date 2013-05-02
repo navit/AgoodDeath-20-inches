@@ -18,11 +18,11 @@
 			<div id= "nosideBar">
 				<img class="icon" id="action" src="images/icons/iconAction.png">
 				<h1 class="title">TAKE ACTION!</h1>
-				<h2 class= "question">Now it’s time to fill the legal form concerned with your health care proxy. Would you like to view the form?</h2>
+				<h2 class= "question">Now it is time to fill the legal form concerned with your health care proxy. Would you like to give it a try?</h2>
 				
 				<div id ="choices">	
-					<center><a id="TemplateLeft" class="answer" href="dashBoard.php">YES</a></center>
-					<center><a id="TemplateRight" class="answer hover" href="#exitMessage.php">NO</a></center>
+					<center><a id="TemplateLeft" class="answer" href="workInProgress.php">YES</a></center>
+					<center><a id="TemplateRight" class="answer hover" href="livingWill.php">NO</a></center>
 				</div><!-- closing choices -->
 			</div><!-- losing content -->
 			

@@ -1,13 +1,14 @@
 #example6{
     float:left;
-    margin:5px 25% 0 27%;
-  }
+    margin:5px 25% 0 27%;  
+}
   .sharrre{
     margin:448px 0 0 9px;
     float:left;
   }
-  
-  .sharrre .box{
+
+/*
+.sharrre .box{
     float:left;
     width:52px;
     height:56px;
@@ -17,28 +18,40 @@
     -webkit-box-shadow:0 1px 0 #C3C3C3, 0 6px 0 #54a2bc, 0px 2px 3px 0px rgba(47, 58, 61, 0.25), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
     -moz-box-shadow:0 1px 0 #C3C3C3, 0 6px 0 #54a2bc, 0px 2px 3px 0px rgba(47, 58, 61, 0.25), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
     box-shadow:0 1px 0 #C3C3C3, 0 6px 0 #54a2bc, 0px 2px 3px 0px rgba(47, 58, 61, 0.25), inset 0px 2px 0px 0px rgba(255, 255, 255, 1);
-    background: #dee7ea; /* Old browsers */
-    background: -moz-linear-gradient(top, #dee7ea 0%, #e5eef2 20%, #e5eef2 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dee7ea), color-stop(20%,#e5eef2), color-stop(100%,#e5eef2)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #dee7ea 0%,#e5eef2 20%,#e5eef2 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #dee7ea 0%,#e5eef2 20%,#e5eef2 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #dee7ea 0%,#e5eef2 20%,#e5eef2 100%); /* IE10+ */
-    background: linear-gradient(top, #dee7ea 0%,#e5eef2 20%,#e5eef2 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dee7ea', endColorstr='#e5eef2',GradientType=0 ); /* IE6-9 */
-  }
-  
+    background: #dee7ea; 
+    background: -moz-linear-gradient(top, #dee7ea 0%, #e5eef2 20%, #e5eef2 100%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dee7ea), color-stop(20%,#e5eef2), color-stop(100%,#e5eef2)); 
+    background: -webkit-linear-gradient(top, #dee7ea 0%,#e5eef2 20%,#e5eef2 100%);
+    background: -o-linear-gradient(top, #dee7ea 0%,#e5eef2 20%,#e5eef2 100%);
+    background: -ms-linear-gradient(top, #dee7ea 0%,#e5eef2 20%,#e5eef2 100%); 
+    background: linear-gradient(top, #dee7ea 0%,#e5eef2 20%,#e5eef2 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dee7ea', endColorstr='#e5eef2',GradientType=0 );
+}
+ 
+*/ 
+.sharrre .box{
+	font-family: 'Actor';
+	font-size: 12px;
+	text-align: center;
+	width:60px; 
+	margin-top:-36px; 
+	padding: 2px;
+
+ }
   #facebook .box{
     -webkit-box-shadow:0 1px 0 #C3C3C3, 0 6px 0 #28437a, 0px 2px 3px 0px rgba(47, 58, 61, 0.25), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
     -moz-box-shadow:0 1px 0 #C3C3C3, 0 6px 0 #28437a, 0px 2px 3px 0px rgba(47, 58, 61, 0.25), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
     box-shadow:0 1px 0 #C3C3C3, 0 6px 0 #28437a, 0px 2px 3px 0px rgba(47, 58, 61, 0.25), inset 0px 2px 0px 0px rgba(255, 255, 255, 1);
   }
   
-  #googleplus .box{
+ /*
+ #googleplus .box{
     -webkit-box-shadow:0 1px 0 #C3C3C3, 0 6px 0 #404040, 0px 2px 3px 0px rgba(47, 58, 61, 0.25), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
     -moz-box-shadow:0 1px 0 #C3C3C3, 0 6px 0 #404040, 0px 2px 3px 0px rgba(47, 58, 61, 0.25), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
     box-shadow:0 1px 0 #C3C3C3, 0 6px 0 #404040, 0px 2px 3px 0px rgba(47, 58, 61, 0.25), inset 0px 2px 0px 0px rgba(255, 255, 255, 1);
   }
   
+*/
   .sharrre .box:active, #facebook .box:active, #googleplus .box:active{
     box-shadow:0 0 3px #333333;
     margin-top:4px;
@@ -54,7 +67,7 @@
   .sharrre .count{
     font-size:15px;
     color:#444444;
-    text-shadow: 0px 1px 0px #ffffff;
+    /* text-shadow: 0px 1px 0px #ffffff; */
     filter: dropshadow(color=#ffffff, offx=0, offy=1);
     height:26px;
     width: 54px;
@@ -97,9 +110,9 @@
     height:31px;
     width: 54px;
     line-height:31px;
-    color:#ffffff;
+    color:white;
     font-size:12px;
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.35);
+    /* text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.35); */
     filter: dropshadow(color=#d1d1d1, offx=0, offy=1);
     border:1px solid #6fa4b5;
     border-width:0 1px 1px 1px;
@@ -116,7 +129,7 @@
   }
   
   .sharrre .share span{
-    background:url("/img/example6.png") no-repeat scroll 0 0 transparent;
+  /*   background:url("/img/example6.png") no-repeat scroll 0 0 transparent; */
     width:18px;
     height:10px;
     display: inline-block;

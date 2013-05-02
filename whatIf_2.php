@@ -1,37 +1,11 @@
 
 <!doctype html>
 <html lang="en">
-  <head> 
-        <title>Loader</title> 
-        <link type="stylesheet" rel="stylesheet" href="css/style.css" />
-         <link type="stylesheet" rel="stylesheet" href="css/slider.css" />
-        <link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script> 
-        <!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" /> -->
-        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-        <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
-        <script type="text/javascript">
-			$(document).ready(function() {
-			    $("body").css("display", "none");
-			 
-			    $("body").fadeIn(1000);
-			 
-			    $("a.transition").click(function(event){
-			        event.preventDefault();
-			        linkLocation = this.href;
-			        $("body").fadeOut(400, redirectPage);      
-			    });	
-			    $(function() {
-				    $( "#slider" ).slider();
-			});		    
-			   
-			});
-		</script>
-	        
-   </head>
-		
+   <head> 
+    <?php
+		include 'header.php';
+	?> 
+   </head>		
 		<body id="toolkit">
 			
 			<div id="out">

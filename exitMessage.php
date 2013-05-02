@@ -8,7 +8,7 @@ ini_set('display_errors', 'On');
 		include 'header.php';
 	?>
    </head>
-   <body>
+   <body id="toolkit">
    		<div id="exitMessage">
 			<div id="message">
 				<h1> SO, YOU are not convinced yet!<br>before you go:</h1>
@@ -21,7 +21,7 @@ ini_set('display_errors', 'On');
 				  <option value="one year">one year </option>
 				</select> 
 				  <p>to come back and continue the process.<br>Would you like that?</p>
-				<a class="linkAnswer exitLink" href="out">YES</a>
+				<a class="linkAnswer exitLink" href="thanks.php">YES</a>
 				<a class="linkAnswer exitLink" href="#">No, I would like to go back</a>
 			</div>
 		</div><!closing exitmessage-->

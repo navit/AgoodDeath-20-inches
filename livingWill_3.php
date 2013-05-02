@@ -32,11 +32,33 @@
 			<aside>
 			<form><textarea id="graveStories" type="text" name="story" placeholder="Share your own story here..."></textarea></form>
 			<img id="livingWill3" src="images/sideBar/datalivingWill_3.png">
-			<img id="social3" src="images/sideBar/social.png">						
-				</div>
+			<div id="demo1" data-url="http://sharrre.com" data-text="Make your sharing widget with Sharrre (jQuery Plugin)" data-title="share"></div>
+			<!-- <img id="social3" src="images/sideBar/social.png">	 -->						
 			</aside>
-			</div>
+			</div><!-- closing wrapper -->
 			
+			<script type='text/javascript' src="js/jquery.sharrre-1.3.4.js"></script> 
+			<script type="text/javascript">
+			$('#demo1').sharrre({
+					  share: {
+					    googlePlus: true,
+					    facebook: true,
+					    twitter: true
+					  },
+					  buttons: {
+					    googlePlus: {size: 'tall', annotation:'bubble'},
+					    facebook: {layout: 'box_count'},
+					    twitter: {count: 'vertical', via: '_JulienH'}
+					  },
+					  hover: function(api, options){
+					    $(api.element).find('.buttons').show();
+					  },
+					  hide: function(api, options){
+					    $(api.element).find('.buttons').hide();
+					  },
+					  enableTracking: true
+					});
+			</script>
 			<footer>
 			<?php
 				include 'footer.php';

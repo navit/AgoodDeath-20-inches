@@ -47,7 +47,7 @@
         annotation: ''
       },
       facebook: { //http://developers.facebook.com/docs/reference/plugins/like/
-        url: '',  //if you need to personalize url button
+        url: 'https://www.facebook.com/navit.keren?ref=tn_tnmn',  //if you need to personalize url button
         urlCount: false,  //if you want to use personnalize button url on global counter
         action: 'like',
         layout: 'button_count',
@@ -59,7 +59,7 @@
         lang: 'en_US'
       },
       twitter: {  //http://twitter.com/about/resources/tweetbutton
-        url: '',  //if you need to personalize url button
+        url: 'https://twitter.com/AGOODEATH',  //if you need to personalize url button
         urlCount: false,  //if you want to use personnalize button url on global counter
         count: 'horizontal',
         hashtags: '',
@@ -67,7 +67,8 @@
         related: '',
         lang: 'en'
       },
-      digg: { //http://about.digg.com/downloads/button/smart
+      /*
+digg: { //http://about.digg.com/downloads/button/smart
         url: '',  //if you need to personalize url button
         urlCount: false,  //if you want to use personnalize button url on global counter
         type: 'DiggCompact'
@@ -93,6 +94,7 @@
         description: '',
         layout: 'horizontal'
       }
+*/
     }
   },
   /* Json URL to get count number
@@ -325,8 +327,11 @@
     twitter: function(opt){
       window.open("https://twitter.com/intent/tweet?text="+encodeURIComponent(opt.text)+"&url="+encodeURIComponent((opt.buttons.twitter.url !== '' ? opt.buttons.twitter.url : opt.url))+(opt.buttons.twitter.via !== '' ? '&via='+opt.buttons.twitter.via : ''), "", "toolbar=0, status=0, width=650, height=360");
     },
-    digg: function(opt){
-      window.open("http://digg.com/tools/diggthis/submit?url="+encodeURIComponent((opt.buttons.digg.url !== '' ? opt.buttons.digg.url : opt.url))+"&title="+opt.text+"&related=true&style=true", "", "toolbar=0, status=0, width=650, height=360");
+    /*
+digg: function(opt){
+      window.open("http://digg.com/tools/diggthis/submit?url="+encodeURIComponent((opt.buttons.digg.url !== '' ? opt.buttons.digg.url : opt.url))+"&title="+opt.
+      
++"&related=true&style=true", "", "toolbar=0, status=0, width=650, height=360");
     },
     delicious: function(opt){
       window.open('http://www.delicious.com/save?v=5&noui&jump=close&url='+encodeURIComponent((opt.buttons.delicious.url !== '' ? opt.buttons.delicious.url : opt.url))+'&title='+opt.text, 'delicious', 'toolbar=no,width=550,height=550');
@@ -340,6 +345,7 @@
     pinterest: function(opt){
       window.open('http://pinterest.com/pin/create/button/?url='+encodeURIComponent((opt.buttons.pinterest.url !== '' ? opt.buttons.pinterest.url : opt.url))+'&media='+encodeURIComponent(opt.buttons.pinterest.media)+'&description='+opt.buttons.pinterest.description, 'pinterest', 'toolbar=no,width=700,height=300');
     }
+*/
   };
 
   /* Plugin constructor
