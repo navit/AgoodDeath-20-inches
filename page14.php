@@ -30,23 +30,7 @@
 			<aside>
 				<img id="page13" src="images/sideBar/data13.png">
 			</aside>
-			</div><!-- closing wrraper -->
-				
-			 <!--
-<script type="text/javascript">
-				   $(document).ready(function() {			
-			    $('.answer').click(function(){
-			    	$('#emailMessage').fadeIn(1000)
-			    	$('#emailMessage').modal()
-			    });
-			});
-			</script>
-			
-			<?php 
-				include 'emailMessage.php';
-			?>
--->
-			
+			</div>			
 			<footer>
 			<?php
 				include 'footer.php';

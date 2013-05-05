@@ -8,23 +8,21 @@
    </head>
 		
 		<body>
-				
 			<nav id ="mainnav">
 				<ul>
 					<li><a class="mainPage" href ="#about"> ABOUT / RESOURCES</a></li>
 				</ul>
 			</nav>
-
 			
 			<div id ="homepageTop">	
-				<img id="homepage" src="images/homepage/COVER2.png">
+				<img id="homepage" src="images/homepage/cover3.png">
 				<img id="logo" src="images/homepage/logo1.png">
-				<h1> <img src="images/homepage/create1.png"></h1>
-				<a id="enter" href="page0.php">ENTER</a>
+				<h1> <img src="images/homepage/create.png"></h1>
+				<a id="enter" href="page0.php">ENTER</a><br>
 			</div>
 			
 			<div id= "info">
-				 <!-- <img src="images/homepage/texture.png"  --> 
+				 <img src="images/homepage/InfoCover.png"> 
 				
 				<div id="name" class="all">
 					<img class="allIcons" src ="images/homepage/iconName.png">
@@ -64,7 +62,7 @@
 					<a href="http://ago.mo.gov/publications/lifechoices/lifechoices.pdf"> <img src="images/homepage/resources/missouri.png"></a>
 					<a href="http://journalstar.com/links/online-exclusives/nebraska-end-of-life-survey-results/pdf_f5c93ec4-ce4f-5edb-9b46-5bb975319963.html"><img src="images/homepage/resources/						journal.png"></a>
 					<a href="http://www.chcr.brown.edu/dying/2001DATA.HTM/"> <img src="images/homepage/resources/brown.png"></a>
-					<a href="http://journalstar.com/links/online-exclusives/nebraska-end-of-life-survey-results/pdf_f5c93ec4-ce4f-5edb-9b46-5bb975319963.html"><img src="images/homepage/resources/						journal.png"></a>
+					<a href="http://www.bmj.com/content/340/bmj.c1345"><img src="images/homepage/resources/bmj.png"></a>
 					<a href="http://www.apa.org/topics/death/end-of-life.aspx"> <img src="images/homepage/resources/america.png"></a>
 
 				</div>						
@@ -73,12 +71,19 @@
 			<div id="contact">
 				<h4 id ="link"> agoodeath.com &copy;CopyRight 2013</h4>
 				<div id="social">
-					<a href="mailto:navitush@gmail.com" target="_blank"><img src="images/homepage/mail.png"></a>
-					<a href="https://twitter.com/AGOODEATH" target="_blank"><img src="images/homepage/twitter.png"></a>
+					<a href="mailto:navitush@gmail.com" class="popUp"><img src="images/homepage/mail.png"></a> 
+					<a href="https://twitter.com/AGOODEATH" class="popUp"><img src="images/homepage/twitter.png"></a>
 					<img src="images/homepage/facebook.png">
 				</div>
-				<h4 id="credits"> Designed By Navit Keren</h4>
+				<h4 id="credits">Designed By Navit Keren</h4>
 			</div>
+			
+			<script src="http://swip.codylindley.com/jquery.popupWindow.js"></script>	
+			<script type="text/javascript"> 
+			$('.popUp').popupWindow({ 
+			centerScreen:1 
+			}); 
+			</script>
 			
 		</body>
 </html> 

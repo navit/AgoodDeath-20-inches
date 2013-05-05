@@ -17,7 +17,7 @@
 			?>
 			</div>
 		
-			<div id="line"><img src="images/blueLine.png"></div>
+			<div id="short"><img src="images/blueShortLine.png"></div>
 			<div id="wrapper">
 				<div id= "content">
 					<img class="icon" id="action" src="images/icons/iconAction.png">
@@ -25,8 +25,8 @@
 					<h2 class= "question" id="final1"<h2>Now that you have dealt with a content asked on the living Will, would you like to give it a try and fill the actual form?</h2>
 					
 					<div id ="choices">	
-						<center><a id="TemplateLeft" class="answer email" href="dashBoard.php">YES</a></center>
-						<center><a id="TemplateRight" class="answer hover" href="#exitMessage.php">NO</a></center>
+						<center><a id="TemplateLeft" class="answer email" href="workInProgress.php">YES</a></center>
+						<center><a id="TemplateRight" class="answer hover" href="exitMessage.php">NO</a></center>
 					</div><!-- closing choices -->
 				</div>
 			
@@ -35,21 +35,6 @@
 			</aside>
 		
 			</div><!closing wrapper-->
-			
-			<script type="text/javascript">
-			$(document).ready(function() {			
-			    $('.answer').click(function(){
-			    	$('#exitMessage').fadeIn(1000)
-			    	$('#exitMessage').modal()
-
-			    });
-		
-			});
-			</script>
-			
-			<?php 
-				include 'exitMessage.php';
-			?>
 			
 			<footer>
 			<?php

@@ -22,11 +22,11 @@
 				<h2 class="question">You were connected to a breathing machine to keep you alive:</h2>
 						
 			<div id="slider">			
-				<div class="box" id="want">
+				<div class="square" id="want">
 					<img src= "images/slider/want.png">
 					<p> Want Treatment </p>
 					</div>
-				<div class="box" id="doNotWant">
+				<div class="square" id="doNotWant">
 					<img src= "images/slider/dontWant.png">
 					<p>Don't Want Treatment </p>
 				</div>				

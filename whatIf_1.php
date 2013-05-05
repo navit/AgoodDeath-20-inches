@@ -23,11 +23,11 @@
 				<h2 class="question">You needed someone to take care of you 24 hours a day in your own home:</h2>
 						
 			<div id="slider">			
-				<div class="box" id="want">
+				<div class="square" id="want">
 					<img src= "images/slider/want.png">
 					<p> Want Treatment </p>
 					</div>
-				<div class="box" id="doNotWant">
+				<div class="square" id="doNotWant">
 					<img src= "images/slider/dontWant.png">
 					<p>Don't Want Treatment </p>
 				</div>				

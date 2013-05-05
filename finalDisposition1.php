@@ -53,10 +53,6 @@
 		
 			</div><!closing wrapper-->
 			
-			<?php 
-				include 'exitMessage.php';
-			?>
-			
 			<footer>
 			<?php
 				include 'footer.php';

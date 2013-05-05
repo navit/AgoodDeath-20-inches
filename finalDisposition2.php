@@ -19,7 +19,7 @@
 			<div id="line"><img src="images/blueLine.png"></div>
 			<div id="wrapper">
 				<div id= "content">
-					<img class="icon" src="images/icons/iconFinal_1.png">
+					<img class="icon" src="images/icons/iconFinal_2.png">
 					<h1 class="title">BURIAL ARRANGEMENTS</h1>
 					<h2 class= "question" id="final1"<h2>I would like to be:</h2>
 					
@@ -36,10 +36,6 @@
 			</aside>
 		
 			</div><!closing wrapper-->
-			
-			<?php 
-				include 'exitMessage.php';
-			?>
 			
 			<footer>
 			<?php

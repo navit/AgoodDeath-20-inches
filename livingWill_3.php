@@ -38,18 +38,21 @@
 			</div><!-- closing wrapper -->
 			
 			<script type='text/javascript' src="js/jquery.sharrre-1.3.4.js"></script> 
+			<script type='text/javascript' src="js/jquery.sharrre-1.3.4.js"></script> 
 			<script type="text/javascript">
 			$('#demo1').sharrre({
 					  share: {
-					    googlePlus: true,
+					    /* googlePlus: true, */
 					    facebook: true,
 					    twitter: true
 					  },
-					  buttons: {
+					  /*
+buttons: {
 					    googlePlus: {size: 'tall', annotation:'bubble'},
 					    facebook: {layout: 'box_count'},
 					    twitter: {count: 'vertical', via: '_JulienH'}
 					  },
+*/
 					  hover: function(api, options){
 					    $(api.element).find('.buttons').show();
 					  },
@@ -58,8 +61,7 @@
 					  },
 					  enableTracking: true
 					});
-			</script>
-			<footer>
+			</script>			<footer>
 			<?php
 				include 'footer.php';
 			?>

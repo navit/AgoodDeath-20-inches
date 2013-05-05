@@ -13,7 +13,7 @@ ini_set('display_errors', 'On');
 			<div id="message">
 				<h1> SO, YOU are not convinced yet!<br>before you go:</h1>
 				<img src= "images/exitButton/info.png">
-				<p> End life decisions can be a very hard and emotional issue to deal<br> with. Although it is better to start the process early and gain as<br> much knowledge as you can, we 							understand that one might fear<br> going through with it.</p> <p id="reminder"> We could remind you in</p> 
+				<p> End life decisions can be a very hard and emotional issue to deal<br> with. Although it is better to start the process early and gain as<br> much knowledge as you can, we understand that one might fear<br> going through with it.</p> <p id="reminder"> We could remind you in</p> 
 				<select id="reminder">
 				  <option value="one week">one week</option>
 				  <option value="one month">one month</option>
@@ -21,10 +21,26 @@ ini_set('display_errors', 'On');
 				  <option value="one year">one year </option>
 				</select> 
 				  <p>to come back and continue the process.<br>Would you like that?</p>
-				<a class="linkAnswer exitLink" href="thanks.php">YES</a>
-				<a class="linkAnswer exitLink" href="#">No, I would like to go back</a>
+				  <a class="linkAnswer exitLink" href="thanks.php">YES</a>
+				  <a class="linkAnswer exitLink" id="stay" href="#">No, I would like to go back</a>
 			</div>
 		</div><!closing exitmessage-->
+		
+		<!--
+<script type="text/javascript">
+				function openWin()
+				{
+				myWindow=window.open("","","width=200,height=100");
+				myWindow.document.write('#exitMessage');
+				}
+				
+				function closeWin()
+				{
+				myWindow.close();
+				}	
+-->	 
+		</script>
+
    </body>
 </html>
 		

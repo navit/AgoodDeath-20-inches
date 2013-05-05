@@ -33,24 +33,7 @@
 				<img id="livingWill" src="images/sideBar/datalivingWill.png">
 			</aside>
 			
-			</div><!closing wrapper-->
-			
-			 <!--
-<script type="text/javascript">
-				   $(document).ready(function() {			
-			    $('.answer').click(function(){
-			    	$('#exitMessage').fadeIn(1000)
-			    	$('#exitMessage').modal()
-			    });
-		
-			});
-			</script>  
-		
-			<?php 
-				include 'exitMessage.php';
-			?>
--->
-			
+			</div>			
 			<footer>
 			<?php
 				include 'footer.php';

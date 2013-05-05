@@ -32,6 +32,22 @@
 			<img src="images/sideBar/dataNo4.png">
 			</aside>
 			</div>
+			
+		<!--
+
+			<script type="text/javascript">	
+				$('.answer').click(function(){
+				$('#exitMessag').fadeIn(100);
+				$('#exitMessage').modal()
+				});
+			</script>
+			
+			<?php 
+				include 'exitMessage.php';
+			?>
+-->
+
+			
 			<footer>
 			<?php
 				include 'footer.php';
