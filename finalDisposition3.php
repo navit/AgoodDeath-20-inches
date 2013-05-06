@@ -22,11 +22,11 @@
 				<div id= "content">
 					<img class="icon" id="action" src="images/icons/iconAction.png">
 					<h1 class="title">TAKE ACTION!</h1>
-					<h2 class= "question" id="final1"<h2>Now that you have dealt with a content asked on the living Will, would you like to give it a try and fill the actual form?</h2>
+					<h2 class= "question" id="final1"<h2>Now that you have dealt with the content asked on the living Will, would you like to give it a try and fill the actual form?</h2>
 					
 					<div id ="choices">	
 						<center><a id="TemplateLeft" class="answer email" href="workInProgress.php">YES</a></center>
-						<center><a id="TemplateRight" class="answer hover" href="exitMessage.php">NO</a></center>
+						<center><a id="TemplateRight" class="answer hover" href="#">NO</a></center>
 					</div><!-- closing choices -->
 				</div>
 			
@@ -35,6 +35,17 @@
 			</aside>
 		
 			</div><!closing wrapper-->
+			
+			<script type="text/javascript">		
+				$('.answer').click(function(){
+				$('#exitMessage').fadeIn(100);
+				$('#exitMessage').modal()
+				});
+			</script>
+			
+			<?php 
+				include 'exitMessage.php';
+			?>
 			
 			<footer>
 			<?php

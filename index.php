@@ -58,9 +58,9 @@
 					<a href= "http://www.americanbar.org/content/dam/aba/migrated/publiced/practical/estates_part7.authcheckdam.pdf"><img src="images/homepage/resources/americanBar.png"></a>	
 					<a href="http://thenounproject.com/"> <img src="images/homepage/resources/noun.png"></a>
 					<a href="http://journalstar.com/links/online-exclusives/nebraska-end-of-life-survey-results/pdf_f5c93ec4-ce4f-5edb-9b46-5bb975319963.html"><img src="images/homepage/resources/						journal.png"></a>
-					<a href="http://www.chcr.brown.edu/dying/2001DATA.HTM/"> <img src="images/homepage/resources/brown.png"></a>
+					<a href="http://www.jaoa.org/content/105/3_suppl/6S.full"> <img src="images/homepage/resources/AmericanJournal.png"></a>
 					<a href="http://ago.mo.gov/publications/lifechoices/lifechoices.pdf"> <img src="images/homepage/resources/missouri.png"></a>
-					<a href="http://journalstar.com/links/online-exclusives/nebraska-end-of-life-survey-results/pdf_f5c93ec4-ce4f-5edb-9b46-5bb975319963.html"><img src="images/homepage/resources/						journal.png"></a>
+					<a href="http://www.theatlantic.com/search/?q=iran+byock"><img src="images/homepage/resources/atlantic.png"></a>
 					<a href="http://www.chcr.brown.edu/dying/2001DATA.HTM/"> <img src="images/homepage/resources/brown.png"></a>
 					<a href="http://www.bmj.com/content/340/bmj.c1345"><img src="images/homepage/resources/bmj.png"></a>
 					<a href="http://www.apa.org/topics/death/end-of-life.aspx"> <img src="images/homepage/resources/america.png"></a>
@@ -73,17 +73,21 @@
 				<div id="social">
 					<a href="mailto:navitush@gmail.com" class="popUp"><img src="images/homepage/mail.png"></a> 
 					<a href="https://twitter.com/AGOODEATH" class="popUp"><img src="images/homepage/twitter.png"></a>
-					<img src="images/homepage/facebook.png">
+					<a href="https://github.com/navit/AgoodDeath-20-inches" class="popUp"><img src="images/homepage/github.png"></a>
+
 				</div>
 				<h4 id="credits">Designed By Navit Keren</h4>
 			</div>
 			
+		
 			<script src="http://swip.codylindley.com/jquery.popupWindow.js"></script>	
 			<script type="text/javascript"> 
 			$('.popUp').popupWindow({ 
 			centerScreen:1 
+			
 			}); 
 			</script>
+
 			
 		</body>
 </html> 

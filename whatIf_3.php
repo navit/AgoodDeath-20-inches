@@ -37,7 +37,7 @@
 			</div><!-- closing content -->
 			
 			<aside>
-				 <img src="images/sideBar/dataWhatIf_1.png">	
+				 <img src="images/sideBar/dataWhatIf_3.png">	
 			</aside>
 			</div>
 			

@@ -10,9 +10,9 @@
 		<body id="toolkit">
 			
 			<div id="out">
-			<?php
+			<?php 
 				include 'exitButton.php';
-			?>
+				?>	
 			</div>
 			
 			<div id="line"><img src="images/blueLine.png"></div>
@@ -24,7 +24,7 @@
 				
 				<div id ="choices">	
 					<center><a id="TemplateLeft" class="answer" href="planning.php">YES</a></center>
-					<center><a id="TemplateRight" class="answer" href="exitMessage.php">NO</a></center>
+					<center><a id="TemplateRight" class="answer" href="#">NO</a></center>
 				</div><!-- closing choices -->
 			</div><!-- losing content -->
 			
@@ -32,12 +32,10 @@
 			<img src="images/sideBar/dataNo4.png">
 			</aside>
 			</div>
-			
-		<!--
-
-			<script type="text/javascript">	
+		
+			<script type="text/javascript">		
 				$('.answer').click(function(){
-				$('#exitMessag').fadeIn(100);
+				$('#exitMessage').fadeIn(100);
 				$('#exitMessage').modal()
 				});
 			</script>
@@ -45,8 +43,6 @@
 			<?php 
 				include 'exitMessage.php';
 			?>
--->
-
 			
 			<footer>
 			<?php

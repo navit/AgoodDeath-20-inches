@@ -9,7 +9,7 @@ ini_set('display_errors', 'On');
 	?>
    </head>
    <body id="toolkit">
-   		<div id="exitMessage">
+   		<div id="exitMessageT">
 			<div id="message">
 				<h1> SO, YOU are not convinced yet!<br>before you go:</h1>
 				<img src= "images/exitButton/info.png">

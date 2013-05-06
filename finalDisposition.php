@@ -21,7 +21,7 @@
 				<div id= "content">
 					<img class="icon" id="iconFinal" src="images/icons/iconFinal.png">
 					<h1 class="title">FINAL DISPOSITION</h1>
-					<h2 class= "question" id="finalDispo">After the death of a loved one, family and friends are often left with some tough decisions. You can help ease the pain by making your 						wishes about burial, autopsy, and organ donations clear in advance. Would you like to give it a try?</h2>
+					<h2 class= "question" id="finalDispo">After the death of a loved one, family and friends are often left with some tough decisions. You can help ease the pain by making your wishes about burial, autopsy, and organ donations clear in advance. Would you like to give it a try?</h2>
 					
 					<div id ="choices">	
 						<center><a id="TemplateLeft" class="answer" href="finalDisposition1.php">YES</a></center>
@@ -35,6 +35,17 @@
 			</aside>
 		
 			</div><!closing wrapper-->
+			
+			<script type="text/javascript">		
+				$('.answer').click(function(){
+				$('#FinalDispoExitMessage').fadeIn(100);
+				$('#FinalDispoExitMessage').modal()
+				});
+			</script>
+			
+			<?php 
+				include 'FinalDispoExitMessage.php';
+			?>
 			
 			<footer>
 			<?php
