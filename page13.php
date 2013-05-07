@@ -33,6 +33,9 @@
 
 			</aside>
 			</div>
+			<?php 
+				include 'exitMessage.php';
+			?>
 			
 			<footer>
 			<?php

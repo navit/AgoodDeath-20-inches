@@ -42,7 +42,16 @@
 			$( "#slider" ).slider();
 		});
 		
+		$('#exit').click(function(e){
+		//$('#exitMessage').fadeIn(100);
+		$('#exitMessage').modal({
+					close : true,
+					overlayClose : true
+			});
+			e.preventDefault();
 		});
-
+		
+		});
+				
 		</script>
 

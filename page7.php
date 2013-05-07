@@ -32,11 +32,23 @@
 			<aside>
 				<form><textarea id="personalStories" type="text" name="story" placeholder="Share your own story here..."></textarea><br></form>
 				<img id="stories" src="images/sideBar/data7.png">
+				<!--
+<div id= "social">
+				<img src= "images/sharing/social.png">
+				</div>
+				<ul id="social_sharing">
+					<li>
+						<a href="https://twitter.com/intent/tweet"><img class="share-facebooksrc" src=" images/sharing/facebook.png"></a>
+						</a>					
+					</li>
 				
-				<div id="demo1" data-url="http://sharrre.com" data-text="Make your sharing widget with Sharrre (jQuery Plugin)" data-title="share"></div>
+				</ul>
+-->
+				<div id="demo1" data-url="http://sharrre.com" data-text="Make your sharing widget with Sharrre (jQuery Plugin)" data-title="share"></div> 
 
 			</aside>
 			</div> <!-- closing wrapper -->
+			
 			<script type='text/javascript' src="js/jquery.sharrre-1.3.4.js"></script> 
 			<script type="text/javascript">
 			$('#demo1').sharrre({
@@ -53,7 +65,9 @@
 					  enableTracking: true
 					});
 			</script>
-
+			<?php 
+				include 'exitMessage.php';
+			?>
 			<footer>
 			<?php
 				include 'footer.php';

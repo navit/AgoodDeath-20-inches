@@ -32,7 +32,7 @@
 				</div><!-- closing content -->
 			
 			<aside>
-				<img id="livingWill1" src= "images/sidebar/datalivingWill_1.png">
+				<img id="livingWill1" src= "images/sideBar/datalivingWill_1.png">
 			</aside>
 			
 			</div><!closing wrapper-->

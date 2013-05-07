@@ -31,6 +31,9 @@
 				<img id="page13" src="images/sideBar/data13.png">
 			</aside>
 			</div>			
+			<?php 
+				include 'exitMessage.php';
+			?>
 			<footer>
 			<?php
 				include 'footer.php';

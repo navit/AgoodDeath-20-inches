@@ -1,0 +1,23 @@
+1.fix the width of exit message hover.
+2. email page fix
+
+
+page 7 sharing button! & Fix grave!
+
+decide what to do with the sharing- buttons on page 7 and thanks and homepage  no pop up
+
+
+
+fix homepage show arrow button to go down
+
+work in progress fix position think i did
+
+
+
+exit message has an #exit
+
+the messages within the pages are seperated- they are #on
+
+
+
+homedepo for the wires!

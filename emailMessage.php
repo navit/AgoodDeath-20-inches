@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
-  <head> 
-     <?php
-		include 'header.php';
-	?>
+  	<head> 
+	    <?php
+			include 'header.php';
+		?>	        
    </head>
-   		<body id="toolkit">	
-   			<div id="emailMessage">
+		
+		<body >
+   			<div id="email">
 				<div id="Emessage">
 					<form>
 						<div class= "labels" id ="to"></div>
@@ -19,8 +20,9 @@
 Will you be my proxy?</textarea></form>
 			
 				 <a href="#"><input id ="send" type="submit" value="SEND" onclick="window.location='page15.php'" /></a>
-				</div>
-			</div><!closing exitmessage-->
+				</div><!closing emessage-->
+			</div><!closing mail-->
+
 		</body>
 </html>
 		

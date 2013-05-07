@@ -25,7 +25,7 @@
 					
 					<div id ="choices">	
 						<center><a id="TemplateLeft" class="answer" href="finalDisposition1.php">YES</a></center>
-						<center><a id="TemplateRight" class="answer hover" href="#">NO</a></center>
+						<center><a id="TemplateRight" class="answer hover no" href="#">NO</a></center>
 						
 					</div><!-- closing choices -->
 				</div><!-- losing content -->
@@ -35,17 +35,20 @@
 			</aside>
 		
 			</div><!closing wrapper-->
-			
-			<script type="text/javascript">		
-				$('.answer').click(function(){
-				$('#FinalDispoExitMessage').fadeIn(100);
-				$('#FinalDispoExitMessage').modal()
-				});
-			</script>
-			
 			<?php 
 				include 'FinalDispoExitMessage.php';
 			?>
+		
+			 <script type="text/javascript">
+				$('.no').click(function(e){
+				//$('#exitMessage').fadeIn(100);
+				$('#FinalDispoExitMessage').modal({
+							close : true,
+							overlayClose : true
+					});
+					e.preventDefault();
+				});
+			</script>
 			
 			<footer>
 			<?php

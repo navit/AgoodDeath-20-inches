@@ -16,7 +16,7 @@
 			?>
 			</div>
 			
-			<div id="line"><img src="images/blueShortLine.png"></div>
+			<div id="Shortline"><img src="images/blueShortLine10.png"></div>
 			<div id="wrapper">
 			<div id= "content">
 				<img class="icon" id="iconPage10"src="images/icons/icon10.png">
@@ -34,7 +34,9 @@
 			<img src="images/sideBar/data10.png">
 			</aside>
 			</div>
-			
+			<?php 
+				include 'exitMessage.php';
+			?>
 			<footer>
 			<?php
 				include 'footer.php';

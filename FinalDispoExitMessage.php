@@ -21,13 +21,15 @@ ini_set('display_errors', 'On');
 			</div>
 		</div><!closing exitmessage-->
 		
-		
 		<script type="text/javascript">
-			$('#stay').click(function(){
-					$('#FinalDispoExitMessage').fadeOut(500);
+			
+				$('#stay').click(function(){
+					$('#exitMessages').fadeOut(500);
+					// use this to close modal.
+					$.modal.close();
 				});	
-		</script>
 
+		</script>
    </body>
 </html>
 		

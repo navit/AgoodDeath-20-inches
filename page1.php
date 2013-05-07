@@ -1,17 +1,16 @@
-
 <!doctype html>
 <html lang="en">
-  <head> 
-    <?php
-		include 'header.php';
-	?>	        
+  	<head> 
+	    <?php
+			include 'header.php';
+		?>	        
    </head>
 		
 		<body id="toolkit">
 					
 			<div id="out">
-			<?php
-				include 'exitButton.php';
+			 <?php
+				 include 'exitButton.php';
 			?>
 			</div>
 			
@@ -32,6 +31,9 @@
 			<img src="images/sideBar/data1.png">
 			</aside>
 			</div>
+			<?php 
+				include 'exitMessage.php';
+			?>
 			
 			<footer>
 			<?php

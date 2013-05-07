@@ -26,7 +26,6 @@
 					<center><a id="TemplateLeft" class="answer" href="page13.php">YES</a></center>
 					<center><a id="TemplateRight" class="answer hover" href="#">NO</a></center>
 					<div id= "hoverMessage"><img src= "images/hoverMessage.png"> <p>MAYBE YOU NEED TO THINK OF ANOTHER PERSON!</p> </div>
-
 				</div><!-- closing choices -->
 			</div><!-- losing content -->
 			
@@ -34,6 +33,9 @@
 			<img id = "page12" src="images/sideBar/data12.png">
 			</aside>
 			</div>
+			<?php 
+				include 'exitMessage.php';
+			?>
 			<footer>
 			<?php
 				include 'footer.php';

@@ -35,6 +35,9 @@
 			<img id="livingWill4" src="images/sideBar/datalivingWill_4.png">
 			</aside>
 			</div>
+			<?php 
+				include 'exitMessage.php';
+			?>
 			
 			<footer>
 			<?php

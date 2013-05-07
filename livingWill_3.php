@@ -61,7 +61,11 @@ buttons: {
 					  },
 					  enableTracking: true
 					});
-			</script>			<footer>
+			</script>	
+			<?php 
+				include 'exitMessage.php';
+			?>		
+			<footer>
 			<?php
 				include 'footer.php';
 			?>
