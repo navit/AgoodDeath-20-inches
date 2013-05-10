@@ -17,8 +17,8 @@
 					
 					<div id="socialThanks">
 						<h3> For more information and updates:</h3>
-						<a href="mailto:navitush@gmail.com" target="_blank"><img src="images/homepage/mail.png"></a>
-						<a href="https://twitter.com/AGOODEATH" target="_blank"><img src="images/homepage/twitter.png"></a>
+						<a href="#"><img src="images/homepage/mail.png"></a>
+						<a href="#"><img src="images/homepage/twitter.png"></a>
 						<img src="images/homepage/facebook.png">
 					</div>
 				</div>

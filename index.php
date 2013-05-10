@@ -8,11 +8,13 @@
    </head>
 		
 		<body>
-			<nav id ="mainnav">
+			<!--
+<nav id ="mainnav">
 				<ul>
 					<li><a class="mainPage" href ="#about"> ABOUT / RESOURCES</a></li>
 				</ul>
 			</nav>
+-->
 			
 			<div id ="homepageTop">	
 				<img id="homepage" src="images/homepage/cover3.png">
@@ -71,22 +73,24 @@
 			<div id="contact">
 				<h4 id ="link"> agoodeath.com &copy;CopyRight 2013</h4>
 				<div id="social">
-					<a href="mailto:navitush@gmail.com" class="popUp"><img src="images/homepage/mail.png"></a> 
-					<a href="https://twitter.com/AGOODEATH" class="popUp"><img src="images/homepage/twitter.png"></a>
-					<a href="https://github.com/navit/AgoodDeath-20-inches" class="popUp"><img src="images/homepage/github.png"></a>
+					<a href="#" class="popUp"><img src="images/homepage/mail.png"></a> 
+					<a href="#" class="popUp"><img src="images/homepage/twitter.png"></a>
+					<a href="#" class="popUp"><img src="images/homepage/github.png"></a>
 
 				</div>
 				<h4 id="credits">Designed By Navit Keren</h4>
 			</div>
 			
 		
-			<script src="http://swip.codylindley.com/jquery.popupWindow.js"></script>	
+			<!--
+<script src="http://swip.codylindley.com/jquery.popupWindow.js"></script>	
 			<script type="text/javascript"> 
 			$('.popUp').popupWindow({ 
 			centerScreen:1 
 			
 			}); 
 			</script>
+-->
 
 			
 		</body>

@@ -21,7 +21,7 @@
 			<div id= "content">
 				<img class="icon postPages" src="images/icons/iconNo2.png">
 				<h1 class="title">POST MORTEM PLANNING</h1>
-				<h2 class= "question NoQuestions"><span style="color:#FF6666">It's like planning a trip to an unfamiliar destination.</span><br>Advance planning allows you to make your wishes and 				care preferences known before being faced with a medical crisis. It is simply smart life-planning. Convinced?</h2>
+				<h2 class= "question" id= "NoQuestions"><span style="color:#FF6666">It's like planning a trip to an unfamiliar destination.</span><br>Advance planning allows you to make your wishes and 				care preferences known before being faced with a medical crisis. It is simply smart life-planning. Convinced?</h2>
 				
 				<div id ="choices">	
 					<center><a id="TemplateLeft" class="answer" href="planning.php">YES</a></center>

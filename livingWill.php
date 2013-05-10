@@ -24,7 +24,7 @@
 				
 				<div id ="choices">	
 					<center><a id="TemplateLeft" class="answer" href="livingWill_1.php">YES</a></center>
-					<center><a id="TemplateRight" class="answer" href="exitMessage.php">NO,thanks</a></center>
+					<center><a id="TemplateRight" class="answer no" href="#">NO,thanks</a></center>
 				</div><!-- closing choices -->
 			
 			</div><!-- closing content -->
@@ -32,8 +32,25 @@
 			<aside>
 				<img id="livingWill" src="images/sideBar/datalivingWill.png">
 			</aside>
+			</div>	
 			
-			</div>			
+					
+			<?php 
+				include 'exitMessage.php';
+			?>
+			 <script type="text/javascript">
+				$('.no').click(function(e){
+				//$('#exitMessage').fadeIn(100);
+				$('#exitMessage').modal({
+							close : true,
+							overlayClose : true
+					});
+					e.preventDefault();
+				});
+			</script>
+			
+			
+					
 			<footer>
 			<?php
 				include 'footer.php';

@@ -32,6 +32,9 @@
 			<aside>
 				<form><textarea id="personalStories" type="text" name="story" placeholder="Share your own story here..."></textarea><br></form>
 				<img id="stories" src="images/sideBar/data7.png">
+				<div id="storyShare"><a class="answer" href="#">SHARE</a></div>
+				<div id="thanksForSharing">
+				<p> thanks for sharing!</p>
 				<!--
 <div id= "social">
 				<img src= "images/sharing/social.png">
@@ -44,12 +47,13 @@
 				
 				</ul>
 -->
-				<div id="demo1" data-url="http://sharrre.com" data-text="Make your sharing widget with Sharrre (jQuery Plugin)" data-title="share"></div> 
+				<!-- <div id="demo1" data-url="http://sharrre.com" data-text="Make your sharing widget with Sharrre (jQuery Plugin)" data-title="share"></div>  -->
 
 			</aside>
 			</div> <!-- closing wrapper -->
 			
-			<script type='text/javascript' src="js/jquery.sharrre-1.3.4.js"></script> 
+			<!--
+<script type='text/javascript' src="js/jquery.sharrre-1.3.4.js"></script> 
 			<script type="text/javascript">
 			$('#demo1').sharrre({
 					  share: {
@@ -63,6 +67,16 @@
 					    $(api.element).find('.buttons').hide();
 					  },
 					  enableTracking: true
+					});
+			</script>
+-->
+
+			<script type="text/javascript">
+			$('#storyShare').click(function(){
+					$('#thanksForSharing').fadeIn();
+					});
+					$('#storyShare').mouseleave(function(){
+					$('#thanksForSharing').fadeOut();
 					});
 			</script>
 			<?php 

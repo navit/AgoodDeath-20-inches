@@ -10,7 +10,9 @@
 		<body id="toolkit">
 			
 			<div id="out">
-				<a id= "exit" href="exitMessage.php"> EXIT <img id ="ex" src="images/ex.PNG"></a> 
+				<?php
+				include 'exitButton.php';
+			?> 
 			</div>
 			
 			<div id="line"><img src="images/blueLine.png"></div>
